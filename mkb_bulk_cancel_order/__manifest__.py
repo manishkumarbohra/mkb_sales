@@ -7,7 +7,7 @@
     'summary': 'This app allows you to cancel multiple sales order in bulk',
     'description': 'This app allows you to cancel multiple sales order in bulk',
     'category': 'Sales',
-    'author': 'SunArc Technologies, Manish Bohra',
+    'author': 'Manish Bohra',
     'website': 'www.linkedin.com/in/manishkumarbohra',
     'maintainer': 'Manish Bohra',
     'support': 'manishkumarbohra@outlook.com',
