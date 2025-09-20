@@ -22,4 +22,16 @@
             </xpath>
         </field>
     </record>
+
+    <record id="view_users_form_signature_simple_pref_modif" model="ir.ui.view">
+        <field name="name">res.users.pre.signature.form</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="hr.res_users_view_form_preferences"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='signature']" position="after">
+                <field name="user_signature" widget="binary"/>
+            </xpath>
+        </field>
+    </record>
+
 </odoo>
