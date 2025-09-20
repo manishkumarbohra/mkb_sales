@@ -4,8 +4,8 @@
 {
     'name': 'Merge Duplicate Sale Order Line',
     'version': '1.0.0',
-    'summary': 'This app allows you to Lock multiple sales order in bulk',
-    'description': 'This app allows you to Lock multiple sales order in bulk',
+    'summary': 'This app allows you to Merge duplicate so lines',
+    'description': 'This app allows you to Merge duplicate so lines',
     'category': 'Sales',
     'author': 'Manish Bohra',
     'website': 'www.linkedin.com/in/manishkumarbohra',
