@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_order_form_inherit_merge_so_lines" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit.so.lines</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="merge_duplicate_so_lines"
+                        type="object"
+                        string="Merge Duplicate SO Lines"
+                        class="btn-secondary"
+                        invisible="state != 'draft'"
+                />
+            </xpath>
+        </field>
+    </record>
+</odoo>
