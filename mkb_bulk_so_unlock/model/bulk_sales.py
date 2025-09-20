@@ -4,7 +4,7 @@
 from odoo import api, fields, models
 
 
-class BulkSalesOrderCancel(models.Model):
+class BulkSalesOrderUnlock(models.Model):
     _inherit = 'sale.order'
 
     def bulk_sales_order_lock(self):

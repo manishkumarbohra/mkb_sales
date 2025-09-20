@@ -4,7 +4,7 @@
 from odoo import api, fields, models
 
 
-class BulkSalesOrderCancel(models.Model):
+class MergeSOLines(models.Model):
     _inherit = 'sale.order'
 
     def merge_duplicate_so_lines(self):
@@ -12,6 +12,7 @@ class BulkSalesOrderCancel(models.Model):
             sales_lines = {}
             for line in sales.order_line:
                 key = (line.product_id.id, line.price_unit, tuple(sorted((tax.id for tax in line.tax_ids))))
+                print("keykey===", key)
                 if key in sales_lines:
                     sales_lines[key].product_uom_qty += line.product_uom_qty
                     line.unlink()
