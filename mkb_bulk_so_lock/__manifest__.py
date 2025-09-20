@@ -2,10 +2,10 @@
 # License LGPL-3 - See http://www.gnu.org/licenses/Lgpl-3.0.html
 
 {
-    'name': 'Bulk Lock Sales Orders',
+    'name': 'Bulk Unlock Sales Orders',
     'version': '1.0.0',
-    'summary': 'This app allows you to lock multiple sales order in bulk',
-    'description': 'This app allows you to lock multiple sales order in bulk',
+    'summary': 'This app allows you to unlock multiple sales order in bulk',
+    'description': 'This app allows you to unlock multiple sales order in bulk',
     'category': 'Sales',
     'author': 'Manish Bohra',
     'website': 'www.linkedin.com/in/manishkumarbohra',
