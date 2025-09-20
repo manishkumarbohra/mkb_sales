@@ -11,4 +11,4 @@ class BulkSalesOrderLock(models.Model):
         """this method used to sales order confirmation in bulk."""
         for sales in self:
             if sales.state  in ['sale'] and not sales.locked:
-                sales.update({'locked':False})
+                sales.update({'locked':True})
